@@ -1,0 +1,12 @@
+{
+  "name": "matanelitzur-frame-print",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "posttest": "node -e 'console.log(\"Done Testing\")'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
