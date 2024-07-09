@@ -52,6 +52,12 @@ https://github.com/jscomplete/ngs
 3. **Sinon** https://sinonjs.org/ --> Framework for Spies, Stubs and Mocks
 4. **Istanbul** https://istanbul.js.org/ --> Code coverage
 
+## Packages
+1. https://www.npmjs.com/package/pre-commit --> For using github pre commit for all dev team
+2.  local hook: For using it locally for a single developer:  
+    1.   hooks to execute scrips, for example on each commit, look at ./git/hooks/commit-msg.sample duplicate and rename to file .git/hooks/pre-commit
+    2.   chmod +x .git/hooks/pre-commit
+
 # REPL (Read Eval Print Loop)
 1. type node in the terminal and press Enter will open a javascript play around
 2. ctrl + L --> clear the REPL session
