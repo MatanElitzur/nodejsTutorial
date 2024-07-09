@@ -35,14 +35,15 @@ https://github.com/jscomplete/ngs
 19. **npm publish** --> publish your package to your npm account, invoked from your package root folder. 
 20. Your package url https://www.npmjs.com/package/matanelitzur-frame-print 
 21. **npm run start OR npm start** --> invoke the start command value at the scripts scope in package.json
-22. **npm run check** --> we can't invoke it as npm check cause it is not a npm special command, but it will invoke the value of check script from the package.json
-23. **npm help npm-scripts** --> To see the all the npm commands
-24. **npm ls** --> Display as a tree all the packages version
-25. **npm ls | less** --> Display as a tree all the packages version, **less** - this command is a pager that allows you to view the output one screen at a time
-26. **npm uninstall <'package name'>** --> remove the package from node_modules and from package.json
-27. **npm show <'package name'> versions** --> display all the package name available versions
-28. **npm outdated** --> display the packages that will be outdated
-29. **npm update** --> update the packages accordingly to the semantic versioning (^ ~) in the package.json  
+22. ** npm run <COMMANDD> --loglevel verbose ** --> Execute a command and print the log
+23. **npm run check** --> we can't invoke it as npm check cause it is not a npm special command, but it will invoke the value of check script from the package.json
+24. **npm help npm-scripts** --> To see the all the npm commands
+25. **npm ls** --> Display as a tree all the packages version
+26. **npm ls | less** --> Display as a tree all the packages version, **less** - this command is a pager that allows you to view the output one screen at a time
+27. **npm uninstall <'package name'>** --> remove the package from node_modules and from package.json
+28. **npm show <'package name'> versions** --> display all the package name available versions
+29. **npm outdated** --> display the packages that will be outdated
+30. **npm update** --> update the packages accordingly to the semantic versioning (^ ~) in the package.json  
 
 
 ## Testing
@@ -110,3 +111,16 @@ node comes with a builtin debugger client https://nodejs.org/api/debugger.html
    1. **node --inspect-brk <'file name>'** it is starting a debugging utility, it is not debugging the file
    2. In your chrome browser chrome://inspect/#devices (Click on the inspect link in the Remote Target section)
    3. a debugger window is opened, you can had and clear breakpoints, step over step into, etc...
+   
+# ESLint
+1. Links
+   1. course https://github.com/jamischarles/ps_eslint/tree/master
+   2. https://eslint.org/
+   3. https://github.com/eslint/eslint/tree/main
+2. Commands:
+   1. npm install eslint -g --> install eslint globally
+   2. eslint -v  --> display version
+   3. eslint --> in terminal type eslint to execute it on the root code
+   4. eslint <FOLDER_PATH> --> to execute eslint on a specific folder
+   5. elsint --init --> to create an eslint configuration file, for creating rules.
+   6. eslint --fix <FOLDER_PATH> --> fix the eslint issuess

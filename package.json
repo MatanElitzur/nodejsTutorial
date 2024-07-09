@@ -4,7 +4,7 @@
   "description": "This is a node tutorial project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test && eslint"
   },
   "author": "Matan elitzur",
   "license": "ISC",
@@ -12,5 +12,10 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "matanelitzur-frame-print": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0"
   }
 }
